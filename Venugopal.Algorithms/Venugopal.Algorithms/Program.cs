@@ -10,6 +10,7 @@ namespace Venugopal.Algorithms
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Committing the first Checkin...");
         }
     }
 }
