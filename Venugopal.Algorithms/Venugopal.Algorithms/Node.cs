@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Microsoft.Venugopal.Algorithms
 {
-    class Program
+    class Node
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Committing the first Checkin...");
-        }
+
     }
 }
