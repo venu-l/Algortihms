@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{477B6F10-AEDA-4AA1-AAB0-BCA76A182E21}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{656BDD0F-72C1-44D2-B980-D319E9196234}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Microsoft.Venugopal.Algorithms</RootNamespace>
-    <AssemblyName>Microsoft.Venugopal.Algorithms</AssemblyName>
+    <RootNamespace>Microsoft.Venugopal.Algorithms.Common</RootNamespace>
+    <AssemblyName>Microsoft.Venugopal.Algorithms.Common</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,22 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IAlgoDriver.cs" />
     <Compile Include="Node.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Microsoft.Venugopal.Algorithms.Backtracking\Microsoft.Venugopal.Algorithms.Backtracking.csproj">
-      <Project>{cbef40c6-d775-4240-b711-85400f291c19}</Project>
-      <Name>Microsoft.Venugopal.Algorithms.Backtracking</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Microsoft.Venugopal.Algorithms.LinkedLIsts\Microsoft.Venugopal.Algorithms.LinkedLists.csproj">
-      <Project>{3a4fb5e1-3b77-4610-a50f-e1933c51a1af}</Project>
-      <Name>Microsoft.Venugopal.Algorithms.LinkedLists</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

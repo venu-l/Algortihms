@@ -5,6 +5,14 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Venugopal.Algorithms", "Venugopal.Algorithms\Microsoft.Venugopal.Algorithms.csproj", "{477B6F10-AEDA-4AA1-AAB0-BCA76A182E21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Venugopal.Algorithms.LinkedLists", "Microsoft.Venugopal.Algorithms.LinkedLIsts\Microsoft.Venugopal.Algorithms.LinkedLists.csproj", "{3A4FB5E1-3B77-4610-A50F-E1933C51A1AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Venugopal.Algorithms.Common", "Microsoft.Venugopal.Algorithms.Common\Microsoft.Venugopal.Algorithms.Common.csproj", "{656BDD0F-72C1-44D2-B980-D319E9196234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Venugopal.Algorithms.Backtracking", "Microsoft.Venugopal.Algorithms.Backtracking\Microsoft.Venugopal.Algorithms.Backtracking.csproj", "{CBEF40C6-D775-4240-B711-85400F291C19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.VenuGopal.CSharp.Random", "Microsoft.VenuGopal.CSharp.Random\Microsoft.VenuGopal.CSharp.Random.csproj", "{454255BE-B5B5-4237-9427-4D270E1FD5F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{477B6F10-AEDA-4AA1-AAB0-BCA76A182E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{477B6F10-AEDA-4AA1-AAB0-BCA76A182E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{477B6F10-AEDA-4AA1-AAB0-BCA76A182E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A4FB5E1-3B77-4610-A50F-E1933C51A1AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A4FB5E1-3B77-4610-A50F-E1933C51A1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A4FB5E1-3B77-4610-A50F-E1933C51A1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A4FB5E1-3B77-4610-A50F-E1933C51A1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{656BDD0F-72C1-44D2-B980-D319E9196234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{656BDD0F-72C1-44D2-B980-D319E9196234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{656BDD0F-72C1-44D2-B980-D319E9196234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{656BDD0F-72C1-44D2-B980-D319E9196234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBEF40C6-D775-4240-B711-85400F291C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBEF40C6-D775-4240-B711-85400F291C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBEF40C6-D775-4240-B711-85400F291C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBEF40C6-D775-4240-B711-85400F291C19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{454255BE-B5B5-4237-9427-4D270E1FD5F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{454255BE-B5B5-4237-9427-4D270E1FD5F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{454255BE-B5B5-4237-9427-4D270E1FD5F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{454255BE-B5B5-4237-9427-4D270E1FD5F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
