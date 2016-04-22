@@ -10,5 +10,7 @@ I love Singing, Skydiving, HorseRiding!
 
 If you have similar combination of intersts, ping me! 
 
-Venugopal Latchupatula
-(Hoping for a day where every computational problem can be solved in linear time :P)
+- Venugopal Latchupatula
+
+What if every computational problem can be solved in super-linear time? 
+Would the Earth start rotating faster? :P :P :P
