@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Node.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -55,9 +54,21 @@
       <Project>{cbef40c6-d775-4240-b711-85400f291c19}</Project>
       <Name>Microsoft.Venugopal.Algorithms.Backtracking</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Microsoft.Venugopal.Algorithms.Common\Microsoft.Venugopal.Algorithms.Common.csproj">
+      <Project>{656bdd0f-72c1-44d2-b980-d319e9196234}</Project>
+      <Name>Microsoft.Venugopal.Algorithms.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Microsoft.Venugopal.Algorithms.LinkedLIsts\Microsoft.Venugopal.Algorithms.LinkedLists.csproj">
       <Project>{3a4fb5e1-3b77-4610-a50f-e1933c51a1af}</Project>
       <Name>Microsoft.Venugopal.Algorithms.LinkedLists</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Microsoft.VenuGopal.Algorithms.Trees\Microsoft.VenuGopal.Algorithms.Trees.csproj">
+      <Project>{63b1999d-6914-4dfd-9b0a-050c246e9d3e}</Project>
+      <Name>Microsoft.VenuGopal.Algorithms.Trees</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Microsoft.VenuGopal.CSharp.Random\Microsoft.VenuGopal.CSharp.Random.csproj">
+      <Project>{454255be-b5b5-4237-9427-4d270e1fd5f2}</Project>
+      <Name>Microsoft.VenuGopal.CSharp.Random</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

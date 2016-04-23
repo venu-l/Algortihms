@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Microsoft.Venugopal.Algorithms.LinkedLists
 {
-    public class RevereseSLL
+    public class RevereseSLL : IAlgoDriver
     {
         public RevereseSLL()
         {
