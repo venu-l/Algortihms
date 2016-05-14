@@ -29,8 +29,6 @@ namespace Microsoft.Venugopal.Algorithms.Backtracking
 
         public void Execute()
         {
-            
-
             var result = this.StringInDictionary(_input);
 
             if(result)
