@@ -1,5 +1,8 @@
-﻿using System;
+﻿using Microsoft.VenuGopal.CSharp.Random.Delegates;
+using Moq;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -25,6 +28,19 @@ namespace Microsoft.VenuGopal.CSharp.Random
             variableDelegeate = WriteDateTimeMethodTwo;
             state = (object)true;
             ExecuteMethod(state, variableDelegeate);
+        }
+
+        private void ModuleHostDriverCode()
+        {
+            Mock<IModuleHost> myModuleHostMock = new Mock<IModuleHost>();
+
+            myModuleHostMock.Setup(call =>
+                            call.PostOutputDataItems(
+                            It.IsAny<DataItem>(),
+                            It.IsAny<ModuleHostCallback.DataItemAcknowledgementCallback>(),
+                            It.IsAny<object>()));
+
+            ModuleHostCallDispatcher dispatcher = new ModuleHostCallDispatcher(myModuleHostMock.Object);
         }
 
         private void ExecuteMethod(object state, WriteDateTimeCallback whatCallBackToCall)
