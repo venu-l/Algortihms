@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Microsoft.VenuGopal.CSharp.Random
 {
-    public class DelegatesHelpers
+    public class DelegatesHandson
     {
         //Delegate Definition One
         public delegate void WriteDateTimeCallback(object state);
