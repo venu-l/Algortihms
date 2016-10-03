@@ -1,5 +1,4 @@
 ﻿using Microsoft.VenuGopal.CSharp.Random.Delegates;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 
@@ -39,7 +38,7 @@ namespace Microsoft.VenuGopal.CSharp.Random
 
                 DataItemCall call = x as DataItemCall;
 
-                this._moduleHost.PostOutputDataItems(call.Item, HandleDataItemAcknowledgement, )
+                this._moduleHost.PostOutputDataItems(call.Item, HandleDataItemAcknowledgement, new object()); 
 
             }
 
