@@ -41,6 +41,7 @@ namespace Microsoft.VenuGopal.CSharp.Random
                             It.IsAny<object>()));
 
             ModuleHostCallDispatcher dispatcher = new ModuleHostCallDispatcher(myModuleHostMock.Object);
+
         }
 
         private void ExecuteMethod(object state, WriteDateTimeCallback whatCallBackToCall)

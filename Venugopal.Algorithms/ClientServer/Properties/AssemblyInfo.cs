@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Microsoft.VenuGopal.Algorithms.Trees")]
+[assembly: AssemblyTitle("ClientServer")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Microsoft.VenuGopal.Algorithms.Trees")]
+[assembly: AssemblyProduct("ClientServer")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("63b1999d-6914-4dfd-9b0a-050c246e9d3e")]
+[assembly: Guid("717eb7da-900e-4891-ad30-82ca084a3d07")]
 
 // Version information for an assembly consists of the following four values:
 //

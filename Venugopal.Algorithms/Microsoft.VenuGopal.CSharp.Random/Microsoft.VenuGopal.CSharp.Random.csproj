@@ -51,8 +51,10 @@
     <Compile Include="Delegates\DelegatesHandson.cs" />
     <Compile Include="Delegates\IModuleHost.cs" />
     <Compile Include="Delegates\DataItem.cs" />
+    <Compile Include="Delegates\ModuleHost.cs" />
     <Compile Include="Delegates\ModuleHostCallback.cs" />
     <Compile Include="Delegates\ModuleHostCallDispatcher.cs" />
+    <Compile Include="Delegates\SCOMRuntimeSimulator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

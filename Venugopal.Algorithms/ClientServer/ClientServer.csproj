@@ -4,15 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{63B1999D-6914-4DFD-9B0A-050C246E9D3E}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{717EB7DA-900E-4891-AD30-82CA084A3D07}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Microsoft.VenuGopal.Algorithms.Trees</RootNamespace>
-    <AssemblyName>Microsoft.VenuGopal.Algorithms.Trees</AssemblyName>
+    <RootNamespace>ClientServer</RootNamespace>
+    <AssemblyName>ClientServer</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -40,14 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Client.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TreeTraversals.cs" />
+    <Compile Include="Server.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Microsoft.Venugopal.Algorithms.Common\Microsoft.Venugopal.Algorithms.Common.csproj">
-      <Project>{656bdd0f-72c1-44d2-b980-d319e9196234}</Project>
-      <Name>Microsoft.Venugopal.Algorithms.Common</Name>
-    </ProjectReference>
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
