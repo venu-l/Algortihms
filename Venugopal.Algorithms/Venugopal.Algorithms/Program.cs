@@ -1,10 +1,9 @@
-﻿using System.Collections;
-using System.Diagnostics;
-using Microsoft.Venugopal.Algorithms.LinkedLists;
-using Microsoft.VenuGopal.Algorithms.Trees;
-
-namespace Microsoft.Venugopal.Algorithms
+﻿namespace Microsoft.Venugopal.Algorithms
 {
+    using System.Collections;
+    using System.Diagnostics;
+    using Microsoft.Venugopal.Algorithms.LinkedLists;
+    using Microsoft.VenuGopal.Algorithms.Trees;
     using Microsoft.Venugopal.Algorithms.Common;
     using Backtracking;
 
