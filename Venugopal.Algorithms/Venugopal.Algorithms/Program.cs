@@ -7,12 +7,13 @@
     using Microsoft.Venugopal.Algorithms.Common;
     using Backtracking;
 
+    using Microsoft.Venugopal.Algorithms.Arrays;
+
     internal class Program
     {
         static void Main(string[] args)
         {
-            IAlgoDriver driver = GetAlgorithmToExecute("TreeTraversals");
-
+            IAlgoDriver driver = GetAlgorithmToExecute("SpiralOrder");
             driver.Execute();
         }
 
@@ -30,6 +31,9 @@
                     break;
                 case "TreeTraversals":
                     driver = new TreeTraversals();
+                    break;
+                case "SpiralOrder":
+                    driver = new SpiralOrder();
                     break;
             }
 
