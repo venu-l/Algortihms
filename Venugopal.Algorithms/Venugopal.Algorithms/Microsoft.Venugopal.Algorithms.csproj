@@ -62,6 +62,10 @@
       <Project>{656bdd0f-72c1-44d2-b980-d319e9196234}</Project>
       <Name>Microsoft.Venugopal.Algorithms.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Microsoft.Venugopal.Algorithms.Graphs\Microsoft.Venugopal.Algorithms.Graphs.csproj">
+      <Project>{c7f815fd-f359-4e03-b6bc-300f2770d333}</Project>
+      <Name>Microsoft.Venugopal.Algorithms.Graphs</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Microsoft.Venugopal.Algorithms.LinkedLIsts\Microsoft.Venugopal.Algorithms.LinkedLists.csproj">
       <Project>{3a4fb5e1-3b77-4610-a50f-e1933c51a1af}</Project>
       <Name>Microsoft.Venugopal.Algorithms.LinkedLists</Name>
