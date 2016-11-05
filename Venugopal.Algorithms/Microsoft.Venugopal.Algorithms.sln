@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Venugopal.Algorithms", "Venugopal.Algorithms\Microsoft.Venugopal.Algorithms.csproj", "{477B6F10-AEDA-4AA1-AAB0-BCA76A182E21}"
 EndProject
@@ -22,6 +22,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Venugopal.Algorithms.Arrays", "Microsoft.Venugopal.Algorithms.Arrays\Microsoft.Venugopal.Algorithms.Arrays.csproj", "{7E13234B-5AA7-4508-8C18-C05069216977}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Venugopal.Algorithms.Graphs", "Microsoft.Venugopal.Algorithms.Graphs\Microsoft.Venugopal.Algorithms.Graphs.csproj", "{C7F815FD-F359-4E03-B6BC-300F2770D333}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QuickGraph", "QuickGraph", "{5CF70D72-82B6-4EEA-B29C-7D61FBAA5668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickGraphExplorations", "QuickGraphExplorations\QuickGraphExplorations.csproj", "{F220C2C6-7B49-415F-B7A4-D186F521D918}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,11 +69,16 @@ Global
 		{C7F815FD-F359-4E03-B6BC-300F2770D333}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7F815FD-F359-4E03-B6BC-300F2770D333}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7F815FD-F359-4E03-B6BC-300F2770D333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F220C2C6-7B49-415F-B7A4-D186F521D918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F220C2C6-7B49-415F-B7A4-D186F521D918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F220C2C6-7B49-415F-B7A4-D186F521D918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F220C2C6-7B49-415F-B7A4-D186F521D918}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{717EB7DA-900E-4891-AD30-82CA084A3D07} = {86559DC5-2F0D-4DEE-8462-FA01ED93133C}
+		{F220C2C6-7B49-415F-B7A4-D186F521D918} = {5CF70D72-82B6-4EEA-B29C-7D61FBAA5668}
 	EndGlobalSection
 EndGlobal
