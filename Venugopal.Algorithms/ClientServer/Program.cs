@@ -14,14 +14,14 @@ namespace ClientServer
         {
             if (args != null && args.Length == 1)
             {
-                if (args[0] == "SCOMRuntime")
+                if (args[0] == "Server")
                 {
-                    Console.WriteLine("Initiating SCOM Runtime (Module Host)...");
+                    Console.WriteLine("Initiating Server Process...");
                     new Server();
                 }
-                else if (args[0] == "RuleRuntime")
+                else if (args[0] == "Client")
                 {
-                    Console.WriteLine("Initiating Assessment Rule Runtime...");
+                    Console.WriteLine("Initiating Client Process...");
                     new Client();
                 }
             }

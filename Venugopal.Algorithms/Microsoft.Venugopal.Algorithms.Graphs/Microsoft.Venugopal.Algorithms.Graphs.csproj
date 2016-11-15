@@ -42,6 +42,12 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.Venugopal.Algorithms.Common\Microsoft.Venugopal.Algorithms.Common.csproj">
+      <Project>{656bdd0f-72c1-44d2-b980-d319e9196234}</Project>
+      <Name>Microsoft.Venugopal.Algorithms.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
