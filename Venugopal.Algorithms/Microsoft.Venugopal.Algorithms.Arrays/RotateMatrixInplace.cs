@@ -46,7 +46,6 @@
 
             Console.WriteLine("Printing the Rotated Matrix:");
             Console.WriteLine("---------------------------");
-            this.PrintMatrix(this.rotatedMatrix);
         }
 
         private void ComputeRotatedMatrix()
