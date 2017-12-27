@@ -21,6 +21,7 @@ namespace QuickGraphExplorations
         static void Main(string[] args)
         {
             PrepareMSRDataset();
+            // PrepareGitHubExample();
         }
 
         /// <summary>
@@ -211,7 +212,7 @@ namespace QuickGraphExplorations
             AdjacencyGraph<string, Edge<string>> graph = new AdjacencyGraph<string, Edge<string>>(true);
             // Dictionary<Edge<string>, double> edgeCost = new Dictionary<Edge<string>, double>();
 
-            string filePath = @"D:\Debug\ConceptGraph\data-concept\data-concept-instance-relations.txt";
+            string filePath = @"E:\Debug\ConceptGraph\data-concept\data-concept-instance-relations.txt";
             string line;
             int count = 0;
             using (StreamReader file = new StreamReader(filePath))

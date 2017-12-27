@@ -6,8 +6,8 @@
 
     public class SpiralOrder : IAlgoDriver
     {
-        private int MatrixRowSize = 5;
-        private int MatrixColumnSize = 8;
+        private int MatrixRowSize = 4;
+        private int MatrixColumnSize = 4;
         private int[][] inputMatrix;
 
         Random randomNumberGenerator = new Random(934734);

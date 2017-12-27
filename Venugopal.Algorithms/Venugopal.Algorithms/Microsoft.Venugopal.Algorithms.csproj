@@ -74,10 +74,6 @@
       <Project>{63b1999d-6914-4dfd-9b0a-050c246e9d3e}</Project>
       <Name>Microsoft.VenuGopal.Algorithms.Trees</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.VenuGopal.CSharp.Random\Microsoft.VenuGopal.CSharp.Random.csproj">
-      <Project>{454255be-b5b5-4237-9427-4d270e1fd5f2}</Project>
-      <Name>Microsoft.VenuGopal.CSharp.Random</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
