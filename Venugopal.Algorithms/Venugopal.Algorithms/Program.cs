@@ -13,7 +13,7 @@
     {
         static void Main(string[] args)
         {
-            IAlgoDriver driver = GetAlgorithmToExecute("SpiralOrder");
+            IAlgoDriver driver = GetAlgorithmToExecute("RotateMatrix");
             driver.Execute();
         }
 
@@ -34,6 +34,9 @@
                     break;
                 case "SpiralOrder":
                     driver = new SpiralOrder();
+                    break;
+                case "RotateMatrix":
+                    driver = new RotateMatrix();
                     break;
             }
 
